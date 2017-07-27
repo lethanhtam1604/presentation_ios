@@ -1,0 +1,109 @@
+.row-header-table {
+    background-color: #7FFFD4;
+}
+
+.suggest__input  {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-top-color: rgb(204, 204, 204);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(204, 204, 204);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(204, 204, 204);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.suggest {
+    display: inline-block;
+    position: relative;
+}
+
+.suggest__input {
+    display: block;
+    width: 100%;
+}
+
+.suggest__datalist {
+    position: absolute;
+    top: 100%;
+    top: calc(100% + 2px);
+    left: 0;
+    z-index: 1;
+    width: 100%;
+
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transform: translate3d(0, 0, 0);
+}
+
+.suggest__datalist:empty {
+    display: none;
+}
+
+.suggest__option {
+    padding: 0.3em 0.5em;
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.suggest__option:hover {
+    background: #ebf2fc;
+}
+
+.suggest__option_hl,
+.suggest__option_hl:hover {
+    background: #3879d9;
+    color: #fff;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.register-modal{
+    width: 90% !important;
+}

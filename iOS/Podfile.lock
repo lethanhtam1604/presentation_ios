@@ -1,0 +1,54 @@
+PODS:
+  - Crashlytics (3.8.2):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.8)
+  - FontAwesomeKit (2.2.0):
+    - FontAwesomeKit/Core (= 2.2.0)
+    - FontAwesomeKit/FontAwesome (= 2.2.0)
+    - FontAwesomeKit/FoundationIcons (= 2.2.0)
+    - FontAwesomeKit/IonIcons (= 2.2.0)
+    - FontAwesomeKit/Zocial (= 2.2.0)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/FontAwesome (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.0):
+    - FontAwesomeKit/Core
+  - MBProgressHUD (1.0.0)
+  - PureLayout (3.0.2)
+  - STPopup (1.8.0)
+  - WYPopoverController (0.3.9)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - FontAwesomeKit
+  - MBProgressHUD (from `https://github.com/jdg/MBProgressHUD.git`)
+  - PureLayout
+  - STPopup
+  - WYPopoverController
+
+EXTERNAL SOURCES:
+  MBProgressHUD:
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+CHECKOUT OPTIONS:
+  MBProgressHUD:
+    :commit: 6424bb843bd4d3bb7f0b77ce36a175ecae4fd803
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+SPEC CHECKSUMS:
+  Crashlytics: 27acca95a01b042a8294291dd6dff27f8f6af6d7
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  STPopup: af630a85628e4226ffcbda5caaead0d99aed13a8
+  WYPopoverController: a9db25ac2841a686acdc0f3a99bdb21545db32f4
+
+PODFILE CHECKSUM: c49217c23b10f4d94953f9612fee6d7721fa213c
+
+COCOAPODS: 1.1.1

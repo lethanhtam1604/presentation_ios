@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822ED6431D76D196009A1F00 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822ED6421D76D196009A1F00 /* ColorPickerViewController.swift */; };
+		822ED6451D76D594009A1F00 /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 822ED6441D76D594009A1F00 /* Colors.plist */; };
+		824915D01DDEDB0A006441C1 /* UploadTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824915CE1DDEDB0A006441C1 /* UploadTextViewController.swift */; };
+		824915D11DDEDB0A006441C1 /* UploadTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 824915CF1DDEDB0A006441C1 /* UploadTextViewController.xib */; };
+		8257A0B51D75917300057A07 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257A0B41D75917300057A07 /* MainViewController.swift */; };
+		828D12D71DE7DC3F00EF906F /* UploadImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12D51DE7DC3F00EF906F /* UploadImageModel.swift */; };
+		828D12D81DE7DC3F00EF906F /* UploadTextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12D61DE7DC3F00EF906F /* UploadTextModel.swift */; };
+		828D12E81DE7DD5600EF906F /* UIColor+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12DE1DE7DD5600EF906F /* UIColor+Addition.swift */; };
+		828D12E91DE7DD5600EF906F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12DF1DE7DD5600EF906F /* UIColor.swift */; };
+		828D12EA1DE7DD5600EF906F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12E11DE7DD5600EF906F /* Constants.swift */; };
+		828D12EB1DE7DD5600EF906F /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12E21DE7DD5600EF906F /* Global.swift */; };
+		828D12EC1DE7DD5600EF906F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12E31DE7DD5600EF906F /* GradientView.swift */; };
+		828D12ED1DE7DD5600EF906F /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12E51DE7DD5600EF906F /* ApiRequest.swift */; };
+		828D12EE1DE7DD5600EF906F /* UploadImageApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12E61DE7DD5600EF906F /* UploadImageApiRequest.swift */; };
+		828D12EF1DE7DD5600EF906F /* UploadTextApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D12E71DE7DD5600EF906F /* UploadTextApiRequest.swift */; };
+		828D12F51DE7E75400EF906F /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 828D12F11DE7E75400EF906F /* FontAwesome.otf */; };
+		828D12F61DE7E75400EF906F /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 828D12F21DE7E75400EF906F /* gallery.png */; };
+		828D12F71DE7E75400EF906F /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 828D12F31DE7E75400EF906F /* ionicons.ttf */; };
+		828D12F81DE7E75400EF906F /* switch-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 828D12F41DE7E75400EF906F /* switch-camera.png */; };
+		828D12FD1DE80DB600EF906F /* presentationBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 828D12FC1DE80DB600EF906F /* presentationBg.jpg */; };
+		828D12FF1DE8128400EF906F /* setup_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 828D12FE1DE8128400EF906F /* setup_1.png */; };
+		828D13041DE81AD200EF906F /* BottomSheetDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828D13031DE81AD200EF906F /* BottomSheetDemoViewController.m */; };
+		828D13071DE81B6500EF906F /* MultiSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828D13061DE81B6500EF906F /* MultiSelectionViewController.m */; };
+		828D13091DE8213000EF906F /* EmotionIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D13081DE8213000EF906F /* EmotionIconViewController.swift */; };
+		828D130C1DE8242900EF906F /* EmotionIconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D130A1DE8242900EF906F /* EmotionIconCollectionViewCell.swift */; };
+		828D130D1DE8242900EF906F /* EmotionIconCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828D130B1DE8242900EF906F /* EmotionIconCollectionViewCell.xib */; };
+		828D13101DE8266600EF906F /* EmotionIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D130F1DE8266600EF906F /* EmotionIconManager.swift */; };
+		828D13121DE8269900EF906F /* EmotionIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D13111DE8269900EF906F /* EmotionIconModel.swift */; };
+		82BBBB271D9533D100C8B3D7 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BBBB261D9533D100C8B3D7 /* SettingViewController.swift */; };
+		82E9DC0F1D714A3A00EC8281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9DC0E1D714A3A00EC8281 /* AppDelegate.swift */; };
+		82E9DC141D714A3A00EC8281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E9DC121D714A3A00EC8281 /* Main.storyboard */; };
+		82E9DC171D714A3A00EC8281 /* Signature.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82E9DC151D714A3A00EC8281 /* Signature.xcdatamodeld */; };
+		82E9DC191D714A3A00EC8281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82E9DC181D714A3A00EC8281 /* Assets.xcassets */; };
+		82E9DC1C1D714A3A00EC8281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E9DC1A1D714A3A00EC8281 /* LaunchScreen.storyboard */; };
+		82E9DC271D714A3A00EC8281 /* SignatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9DC261D714A3A00EC8281 /* SignatureTests.swift */; };
+		82E9DC321D714A3A00EC8281 /* SignatureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E9DC311D714A3A00EC8281 /* SignatureUITests.swift */; };
+		F1743590CEE56FD37A09CDC3 /* Pods_Signature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C894860706B1C7AB356D8432 /* Pods_Signature.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82E9DC231D714A3A00EC8281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82E9DC031D714A3A00EC8281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E9DC0A1D714A3A00EC8281;
+			remoteInfo = Signature;
+		};
+		82E9DC2E1D714A3A00EC8281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82E9DC031D714A3A00EC8281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82E9DC0A1D714A3A00EC8281;
+			remoteInfo = Signature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3478E0AC4B51C65873927EA6 /* Pods-Signature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signature.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Signature/Pods-Signature.debug.xcconfig"; sourceTree = "<group>"; };
+		822ED6421D76D196009A1F00 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		822ED6441D76D594009A1F00 /* Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors.plist; sourceTree = "<group>"; };
+		824915CA1DDED60B006441C1 /* Signature-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Signature-Bridging-Header.h"; sourceTree = "<group>"; };
+		824915CE1DDEDB0A006441C1 /* UploadTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTextViewController.swift; sourceTree = "<group>"; };
+		824915CF1DDEDB0A006441C1 /* UploadTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadTextViewController.xib; sourceTree = "<group>"; };
+		8257A0B41D75917300057A07 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		828D12D51DE7DC3F00EF906F /* UploadImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageModel.swift; sourceTree = "<group>"; };
+		828D12D61DE7DC3F00EF906F /* UploadTextModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTextModel.swift; sourceTree = "<group>"; };
+		828D12DE1DE7DD5600EF906F /* UIColor+Addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Addition.swift"; sourceTree = "<group>"; };
+		828D12DF1DE7DD5600EF906F /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		828D12E11DE7DD5600EF906F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		828D12E21DE7DD5600EF906F /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		828D12E31DE7DD5600EF906F /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		828D12E51DE7DD5600EF906F /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		828D12E61DE7DD5600EF906F /* UploadImageApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageApiRequest.swift; sourceTree = "<group>"; };
+		828D12E71DE7DD5600EF906F /* UploadTextApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTextApiRequest.swift; sourceTree = "<group>"; };
+		828D12F11DE7E75400EF906F /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		828D12F21DE7E75400EF906F /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
+		828D12F31DE7E75400EF906F /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		828D12F41DE7E75400EF906F /* switch-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch-camera.png"; sourceTree = "<group>"; };
+		828D12FC1DE80DB600EF906F /* presentationBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = presentationBg.jpg; sourceTree = "<group>"; };
+		828D12FE1DE8128400EF906F /* setup_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setup_1.png; sourceTree = "<group>"; };
+		828D13021DE81AD200EF906F /* BottomSheetDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomSheetDemoViewController.h; sourceTree = "<group>"; };
+		828D13031DE81AD200EF906F /* BottomSheetDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomSheetDemoViewController.m; sourceTree = "<group>"; };
+		828D13051DE81B6500EF906F /* MultiSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSelectionViewController.h; sourceTree = "<group>"; };
+		828D13061DE81B6500EF906F /* MultiSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSelectionViewController.m; sourceTree = "<group>"; };
+		828D13081DE8213000EF906F /* EmotionIconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionIconViewController.swift; sourceTree = "<group>"; };
+		828D130A1DE8242900EF906F /* EmotionIconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionIconCollectionViewCell.swift; sourceTree = "<group>"; };
+		828D130B1DE8242900EF906F /* EmotionIconCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmotionIconCollectionViewCell.xib; sourceTree = "<group>"; };
+		828D130F1DE8266600EF906F /* EmotionIconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionIconManager.swift; sourceTree = "<group>"; };
+		828D13111DE8269900EF906F /* EmotionIconModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionIconModel.swift; sourceTree = "<group>"; };
+		82BBBB261D9533D100C8B3D7 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		82E9DC0B1D714A3A00EC8281 /* Signature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E9DC0E1D714A3A00EC8281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82E9DC131D714A3A00EC8281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82E9DC161D714A3A00EC8281 /* Signature.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Signature.xcdatamodel; sourceTree = "<group>"; };
+		82E9DC181D714A3A00EC8281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82E9DC1B1D714A3A00EC8281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82E9DC1D1D714A3A00EC8281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E9DC221D714A3A00EC8281 /* SignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E9DC261D714A3A00EC8281 /* SignatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureTests.swift; sourceTree = "<group>"; };
+		82E9DC281D714A3A00EC8281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E9DC2D1D714A3A00EC8281 /* SignatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E9DC311D714A3A00EC8281 /* SignatureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureUITests.swift; sourceTree = "<group>"; };
+		82E9DC331D714A3A00EC8281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974DC6398CB8704E5B5F4EB2 /* Pods_SignatureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignatureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7DE6BEFB6D1215DCE724FF /* Pods_SignatureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignatureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C894860706B1C7AB356D8432 /* Pods_Signature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Signature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27630FA23076CF0CA2B0F16 /* Pods-Signature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signature.release.xcconfig"; path = "Pods/Target Support Files/Pods-Signature/Pods-Signature.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82E9DC081D714A3A00EC8281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1743590CEE56FD37A09CDC3 /* Pods_Signature.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E9DC1F1D714A3A00EC8281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E9DC2A1D714A3A00EC8281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		549168E3CEF799A3E604D529 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3478E0AC4B51C65873927EA6 /* Pods-Signature.debug.xcconfig */,
+				E27630FA23076CF0CA2B0F16 /* Pods-Signature.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		56719E2355E91A2B681CAFEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C894860706B1C7AB356D8432 /* Pods_Signature.framework */,
+				9A7DE6BEFB6D1215DCE724FF /* Pods_SignatureTests.framework */,
+				974DC6398CB8704E5B5F4EB2 /* Pods_SignatureUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		824915C51DDEB66C006441C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				824915CE1DDEDB0A006441C1 /* UploadTextViewController.swift */,
+				824915CF1DDEDB0A006441C1 /* UploadTextViewController.xib */,
+				828D130A1DE8242900EF906F /* EmotionIconCollectionViewCell.swift */,
+				828D130B1DE8242900EF906F /* EmotionIconCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8257A0AF1D75904E00057A07 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				822ED6421D76D196009A1F00 /* ColorPickerViewController.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		828D12D41DE7DC3F00EF906F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				828D12D51DE7DC3F00EF906F /* UploadImageModel.swift */,
+				828D12D61DE7DC3F00EF906F /* UploadTextModel.swift */,
+				828D13111DE8269900EF906F /* EmotionIconModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		828D12DD1DE7DD5600EF906F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				828D12DE1DE7DD5600EF906F /* UIColor+Addition.swift */,
+				828D12DF1DE7DD5600EF906F /* UIColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		828D12E01DE7DD5600EF906F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				828D12E11DE7DD5600EF906F /* Constants.swift */,
+				828D12E21DE7DD5600EF906F /* Global.swift */,
+				828D12E31DE7DD5600EF906F /* GradientView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		828D12E41DE7DD5600EF906F /* ApiRequest */ = {
+			isa = PBXGroup;
+			children = (
+				828D12E51DE7DD5600EF906F /* ApiRequest.swift */,
+				828D12E61DE7DD5600EF906F /* UploadImageApiRequest.swift */,
+				828D12E71DE7DD5600EF906F /* UploadTextApiRequest.swift */,
+			);
+			path = ApiRequest;
+			sourceTree = "<group>";
+		};
+		828D12F01DE7E75400EF906F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				828D12FE1DE8128400EF906F /* setup_1.png */,
+				828D12FC1DE80DB600EF906F /* presentationBg.jpg */,
+				828D12F11DE7E75400EF906F /* FontAwesome.otf */,
+				828D12F21DE7E75400EF906F /* gallery.png */,
+				828D12F31DE7E75400EF906F /* ionicons.ttf */,
+				828D12F41DE7E75400EF906F /* switch-camera.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		828D130E1DE8265200EF906F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				828D130F1DE8266600EF906F /* EmotionIconManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		82DE5C651D810939006E8247 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				828D13051DE81B6500EF906F /* MultiSelectionViewController.h */,
+				828D13061DE81B6500EF906F /* MultiSelectionViewController.m */,
+				828D13021DE81AD200EF906F /* BottomSheetDemoViewController.h */,
+				828D13031DE81AD200EF906F /* BottomSheetDemoViewController.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		82E9DC021D714A3A00EC8281 = {
+			isa = PBXGroup;
+			children = (
+				82E9DC0D1D714A3A00EC8281 /* Signature */,
+				82E9DC251D714A3A00EC8281 /* SignatureTests */,
+				82E9DC301D714A3A00EC8281 /* SignatureUITests */,
+				82E9DC0C1D714A3A00EC8281 /* Products */,
+				549168E3CEF799A3E604D529 /* Pods */,
+				56719E2355E91A2B681CAFEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82E9DC0C1D714A3A00EC8281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82E9DC0B1D714A3A00EC8281 /* Signature.app */,
+				82E9DC221D714A3A00EC8281 /* SignatureTests.xctest */,
+				82E9DC2D1D714A3A00EC8281 /* SignatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82E9DC0D1D714A3A00EC8281 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				828D12DD1DE7DD5600EF906F /* Extension */,
+				828D12E01DE7DD5600EF906F /* Utils */,
+				828D12E41DE7DD5600EF906F /* ApiRequest */,
+				828D130E1DE8265200EF906F /* Manager */,
+				82DE5C651D810939006E8247 /* Libraries */,
+				8257A0AF1D75904E00057A07 /* Helper */,
+				82E9DC3F1D714A8700EC8281 /* Controller */,
+				824915C51DDEB66C006441C1 /* View */,
+				828D12D41DE7DC3F00EF906F /* Models */,
+				828D12F01DE7E75400EF906F /* Resources */,
+				82E9DC0E1D714A3A00EC8281 /* AppDelegate.swift */,
+				82E9DC121D714A3A00EC8281 /* Main.storyboard */,
+				82E9DC181D714A3A00EC8281 /* Assets.xcassets */,
+				82E9DC1A1D714A3A00EC8281 /* LaunchScreen.storyboard */,
+				822ED6441D76D594009A1F00 /* Colors.plist */,
+				82E9DC1D1D714A3A00EC8281 /* Info.plist */,
+				82E9DC151D714A3A00EC8281 /* Signature.xcdatamodeld */,
+				824915CA1DDED60B006441C1 /* Signature-Bridging-Header.h */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		82E9DC251D714A3A00EC8281 /* SignatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				82E9DC261D714A3A00EC8281 /* SignatureTests.swift */,
+				82E9DC281D714A3A00EC8281 /* Info.plist */,
+			);
+			path = SignatureTests;
+			sourceTree = "<group>";
+		};
+		82E9DC301D714A3A00EC8281 /* SignatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82E9DC311D714A3A00EC8281 /* SignatureUITests.swift */,
+				82E9DC331D714A3A00EC8281 /* Info.plist */,
+			);
+			path = SignatureUITests;
+			sourceTree = "<group>";
+		};
+		82E9DC3F1D714A8700EC8281 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8257A0B41D75917300057A07 /* MainViewController.swift */,
+				82BBBB261D9533D100C8B3D7 /* SettingViewController.swift */,
+				828D13081DE8213000EF906F /* EmotionIconViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82E9DC0A1D714A3A00EC8281 /* Signature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E9DC361D714A3A00EC8281 /* Build configuration list for PBXNativeTarget "Signature" */;
+			buildPhases = (
+				8C3E4CD9688856229CE7F0D9 /* [CP] Check Pods Manifest.lock */,
+				82E9DC071D714A3A00EC8281 /* Sources */,
+				82E9DC081D714A3A00EC8281 /* Frameworks */,
+				82E9DC091D714A3A00EC8281 /* Resources */,
+				0787DB74AFDBC5FDF92D53D6 /* [CP] Embed Pods Frameworks */,
+				793906FDFE9E5A1C363C5E72 /* [CP] Copy Pods Resources */,
+				82AA21A21D9283BE00B58932 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signature;
+			productName = Signature;
+			productReference = 82E9DC0B1D714A3A00EC8281 /* Signature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82E9DC211D714A3A00EC8281 /* SignatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E9DC391D714A3A00EC8281 /* Build configuration list for PBXNativeTarget "SignatureTests" */;
+			buildPhases = (
+				82E9DC1E1D714A3A00EC8281 /* Sources */,
+				82E9DC1F1D714A3A00EC8281 /* Frameworks */,
+				82E9DC201D714A3A00EC8281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E9DC241D714A3A00EC8281 /* PBXTargetDependency */,
+			);
+			name = SignatureTests;
+			productName = SignatureTests;
+			productReference = 82E9DC221D714A3A00EC8281 /* SignatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82E9DC2C1D714A3A00EC8281 /* SignatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E9DC3C1D714A3A00EC8281 /* Build configuration list for PBXNativeTarget "SignatureUITests" */;
+			buildPhases = (
+				82E9DC291D714A3A00EC8281 /* Sources */,
+				82E9DC2A1D714A3A00EC8281 /* Frameworks */,
+				82E9DC2B1D714A3A00EC8281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E9DC2F1D714A3A00EC8281 /* PBXTargetDependency */,
+			);
+			name = SignatureUITests;
+			productName = SignatureUITests;
+			productReference = 82E9DC2D1D714A3A00EC8281 /* SignatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82E9DC031D714A3A00EC8281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Thanh-Tam Le";
+				TargetAttributes = {
+					82E9DC0A1D714A3A00EC8281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HQ7CXJ2V7K;
+						LastSwiftMigration = 0800;
+					};
+					82E9DC211D714A3A00EC8281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 82E9DC0A1D714A3A00EC8281;
+					};
+					82E9DC2C1D714A3A00EC8281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 82E9DC0A1D714A3A00EC8281;
+					};
+				};
+			};
+			buildConfigurationList = 82E9DC061D714A3A00EC8281 /* Build configuration list for PBXProject "Signature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82E9DC021D714A3A00EC8281;
+			productRefGroup = 82E9DC0C1D714A3A00EC8281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82E9DC0A1D714A3A00EC8281 /* Signature */,
+				82E9DC211D714A3A00EC8281 /* SignatureTests */,
+				82E9DC2C1D714A3A00EC8281 /* SignatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82E9DC091D714A3A00EC8281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828D12F81DE7E75400EF906F /* switch-camera.png in Resources */,
+				822ED6451D76D594009A1F00 /* Colors.plist in Resources */,
+				828D12FD1DE80DB600EF906F /* presentationBg.jpg in Resources */,
+				824915D11DDEDB0A006441C1 /* UploadTextViewController.xib in Resources */,
+				828D12FF1DE8128400EF906F /* setup_1.png in Resources */,
+				828D12F71DE7E75400EF906F /* ionicons.ttf in Resources */,
+				828D12F51DE7E75400EF906F /* FontAwesome.otf in Resources */,
+				82E9DC1C1D714A3A00EC8281 /* LaunchScreen.storyboard in Resources */,
+				82E9DC191D714A3A00EC8281 /* Assets.xcassets in Resources */,
+				82E9DC141D714A3A00EC8281 /* Main.storyboard in Resources */,
+				828D12F61DE7E75400EF906F /* gallery.png in Resources */,
+				828D130D1DE8242900EF906F /* EmotionIconCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E9DC201D714A3A00EC8281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E9DC2B1D714A3A00EC8281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0787DB74AFDBC5FDF92D53D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signature/Pods-Signature-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		793906FDFE9E5A1C363C5E72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Signature/Pods-Signature-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82AA21A21D9283BE00B58932 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Fabric/run 63a139ca3fa9e0386bde036410a4086633e17510 dc7958697afd64b0d9c4a152193a1fd30c335a3fb413d886d473daaa459df84b";
+		};
+		8C3E4CD9688856229CE7F0D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82E9DC071D714A3A00EC8281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E9DC0F1D714A3A00EC8281 /* AppDelegate.swift in Sources */,
+				828D12EE1DE7DD5600EF906F /* UploadImageApiRequest.swift in Sources */,
+				828D13101DE8266600EF906F /* EmotionIconManager.swift in Sources */,
+				828D12EF1DE7DD5600EF906F /* UploadTextApiRequest.swift in Sources */,
+				828D13121DE8269900EF906F /* EmotionIconModel.swift in Sources */,
+				828D12EA1DE7DD5600EF906F /* Constants.swift in Sources */,
+				828D12E81DE7DD5600EF906F /* UIColor+Addition.swift in Sources */,
+				82BBBB271D9533D100C8B3D7 /* SettingViewController.swift in Sources */,
+				824915D01DDEDB0A006441C1 /* UploadTextViewController.swift in Sources */,
+				822ED6431D76D196009A1F00 /* ColorPickerViewController.swift in Sources */,
+				8257A0B51D75917300057A07 /* MainViewController.swift in Sources */,
+				828D12D81DE7DC3F00EF906F /* UploadTextModel.swift in Sources */,
+				828D13041DE81AD200EF906F /* BottomSheetDemoViewController.m in Sources */,
+				828D13071DE81B6500EF906F /* MultiSelectionViewController.m in Sources */,
+				828D12EB1DE7DD5600EF906F /* Global.swift in Sources */,
+				82E9DC171D714A3A00EC8281 /* Signature.xcdatamodeld in Sources */,
+				828D12EC1DE7DD5600EF906F /* GradientView.swift in Sources */,
+				828D12D71DE7DC3F00EF906F /* UploadImageModel.swift in Sources */,
+				828D13091DE8213000EF906F /* EmotionIconViewController.swift in Sources */,
+				828D130C1DE8242900EF906F /* EmotionIconCollectionViewCell.swift in Sources */,
+				828D12ED1DE7DD5600EF906F /* ApiRequest.swift in Sources */,
+				828D12E91DE7DD5600EF906F /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E9DC1E1D714A3A00EC8281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E9DC271D714A3A00EC8281 /* SignatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E9DC291D714A3A00EC8281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E9DC321D714A3A00EC8281 /* SignatureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82E9DC241D714A3A00EC8281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82E9DC0A1D714A3A00EC8281 /* Signature */;
+			targetProxy = 82E9DC231D714A3A00EC8281 /* PBXContainerItemProxy */;
+		};
+		82E9DC2F1D714A3A00EC8281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82E9DC0A1D714A3A00EC8281 /* Signature */;
+			targetProxy = 82E9DC2E1D714A3A00EC8281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82E9DC121D714A3A00EC8281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E9DC131D714A3A00EC8281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82E9DC1A1D714A3A00EC8281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82E9DC1B1D714A3A00EC8281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82E9DC341D714A3A00EC8281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82E9DC351D714A3A00EC8281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82E9DC371D714A3A00EC8281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3478E0AC4B51C65873927EA6 /* Pods-Signature.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = HQ7CXJ2V7K;
+				INFOPLIST_FILE = Signature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = citynow.Signature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Signature/Signature-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		82E9DC381D714A3A00EC8281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27630FA23076CF0CA2B0F16 /* Pods-Signature.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = HQ7CXJ2V7K;
+				INFOPLIST_FILE = Signature/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = citynow.Signature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Signature/Signature-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		82E9DC3A1D714A3A00EC8281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = citynow.SignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signature.app/Signature";
+			};
+			name = Debug;
+		};
+		82E9DC3B1D714A3A00EC8281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = citynow.SignatureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signature.app/Signature";
+			};
+			name = Release;
+		};
+		82E9DC3D1D714A3A00EC8281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = citynow.SignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Signature;
+			};
+			name = Debug;
+		};
+		82E9DC3E1D714A3A00EC8281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = citynow.SignatureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Signature;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82E9DC061D714A3A00EC8281 /* Build configuration list for PBXProject "Signature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E9DC341D714A3A00EC8281 /* Debug */,
+				82E9DC351D714A3A00EC8281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E9DC361D714A3A00EC8281 /* Build configuration list for PBXNativeTarget "Signature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E9DC371D714A3A00EC8281 /* Debug */,
+				82E9DC381D714A3A00EC8281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E9DC391D714A3A00EC8281 /* Build configuration list for PBXNativeTarget "SignatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E9DC3A1D714A3A00EC8281 /* Debug */,
+				82E9DC3B1D714A3A00EC8281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E9DC3C1D714A3A00EC8281 /* Build configuration list for PBXNativeTarget "SignatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82E9DC3D1D714A3A00EC8281 /* Debug */,
+				82E9DC3E1D714A3A00EC8281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		82E9DC151D714A3A00EC8281 /* Signature.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				82E9DC161D714A3A00EC8281 /* Signature.xcdatamodel */,
+			);
+			currentVersion = 82E9DC161D714A3A00EC8281 /* Signature.xcdatamodel */;
+			path = Signature.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 82E9DC031D714A3A00EC8281 /* Project object */;
+}

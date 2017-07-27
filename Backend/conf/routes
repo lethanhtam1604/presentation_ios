@@ -1,0 +1,17 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET         /                       controllers.Application.index2
+GET         /dev                    controllers.Application.indexDev2
+GET         /javascriptRoutes       controllers.Application.javascriptRoutes
+POST        /api/addNewImage	    controllers.BaseApi.upload
+GET         /api/getNewImage        controllers.BaseApi.getNew
+GET         /api/getNewText         controllers.HomeController.getNewText
+POST        /api/addNewText         controllers.HomeController.addNewText
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file           controllers.Assets.versioned(path="/public", file: Asset)
+GET 	    /dev/*path 		        controllers.Application.indexDev(path)
+GET 	    /*path 				    controllers.Application.index(path)

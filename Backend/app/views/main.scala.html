@@ -1,0 +1,32 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>@title</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/base.css")">
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/app.css")">
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+    <!-- Latest compiled and minified CSS -->
+    <script type='text/javascript' src='//code.jquery.com/jquery-2.0.2.js'></script>                       
+    <script type="text/javascript" src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>  
+    
+    </head>
+  <body>
+    @content
+    
+
+	<!-- local access resolves to this -->
+
+	<script type="text/javascript" src="@routes.Application.javascriptRoutes"></script>
+    <script src="@routes.Assets.versioned("javascripts/build/common.js")"></script>
+    <script src="@routes.Assets.versioned("javascripts/build/app.js")"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="@routes.Assets.versioned("stylesheets/bootstrap.min.css")">
+    <!-- Optional theme -->
+    <script src="@routes.Assets.versioned("javascripts/bootstrap.min.js")"></script>
+
+  </body>
+</html>
